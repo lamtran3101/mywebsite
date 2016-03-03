@@ -124,24 +124,32 @@ ul {
   font-weight: bold;
 }
 
-/* line 39, _menu.scss */
+/* line 37, _menu.scss */
+#banner {
+  padding-top: 30px;
+}
+/* line 40, _menu.scss */
 #banner h1 a {
   color: #333;
   font-family: georgia;
   font-size: 44px;
   font-weight: bold;
 }
-/* line 46, _menu.scss */
+/* line 47, _menu.scss */
 #banner h2 {
   color: #343434;
   font-size: 40px;
   text-align: left;
   font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
-  margin-top: 0;
+  margin-top: 10px;
+}
+/* line 56, _menu.scss */
+#banner #welcome .intro {
+  font-style: italic;
 }
 
-/* line 56, _menu.scss */
+/* line 62, _menu.scss */
 #blog {
   color: #1b488b;
   font-size: 25px;
@@ -149,16 +157,16 @@ ul {
   text-align: center;
 }
 
-/* line 63, _menu.scss */
+/* line 69, _menu.scss */
 #blog:hover {
   color: #04265a;
 }
 
-/* line 67, _menu.scss */
+/* line 73, _menu.scss */
 #social {
   padding-bottom: 5px;
 }
-/* line 69, _menu.scss */
+/* line 75, _menu.scss */
 #social p {
   color: #343434;
   font-size: 18px;
@@ -167,70 +175,79 @@ ul {
   padding: 0;
   text-align: right;
 }
-/* line 78, _menu.scss */
-#social #social .icons {
+/* line 82, _menu.scss */
+#social p a {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  vertical-align: bottom;
+}
+/* line 87, _menu.scss */
+#social .icons {
   width: 30px;
   height: 30px;
 }
-/* line 82, _menu.scss */
-#social #social .facebook {
+/* line 91, _menu.scss */
+#social .facebook {
   background: url("../img/icons.png") 0 0;
 }
-/* line 85, _menu.scss */
-#social #social .facebook:hover {
+/* line 94, _menu.scss */
+#social .facebook:hover {
   background-position: 0px -36px;
 }
-/* line 88, _menu.scss */
-#social #social .linkedin {
+/* line 97, _menu.scss */
+#social .linkedin {
   background: url("../img/icons.png") -71px 0;
 }
-/* line 91, _menu.scss */
-#social #social .linkedin:hover {
+/* line 100, _menu.scss */
+#social .linkedin:hover {
   background-position: -71px -36px;
 }
-/* line 94, _menu.scss */
-#social #social .googleplus {
+/* line 103, _menu.scss */
+#social .googleplus {
   background: url("../img/icons.png") -107px 0;
 }
-/* line 97, _menu.scss */
-#social #social .googleplus:hover {
+/* line 106, _menu.scss */
+#social .googleplus:hover {
   background-position: -107px -36px;
 }
-/* line 100, _menu.scss */
-#social #social .skype {
+/* line 109, _menu.scss */
+#social .skype {
   background: url("../img/icons.png") -141px 0;
 }
-/* line 103, _menu.scss */
-#social #social .skype:hover {
+/* line 112, _menu.scss */
+#social .skype:hover {
   background-position: -141px -36px;
 }
-/* line 106, _menu.scss */
-#social #social .youtube {
+/* line 115, _menu.scss */
+#social .youtube {
   background: url("../img/icons.png") -73px -81px;
 }
-/* line 109, _menu.scss */
-#social #social .youtube:hover {
+/* line 118, _menu.scss */
+#social .youtube:hover {
   background-position: -73px -116px;
 }
-/* line 112, _menu.scss */
-#social #social img {
+/* line 121, _menu.scss */
+#social img {
   margin: 0;
   padding: 0;
 }
 
-/* line 119, _menu.scss */
+/* line 127, _menu.scss */
 #menu {
   height: 50px;
   background-image: url("../img/menu-bg.png");
 }
-/* line 123, _menu.scss */
+/* line 131, _menu.scss */
 #menu ul li {
   margin-right: 20px;
   float: left;
   height: 40px;
   margin-top: 5px;
 }
-/* line 128, _menu.scss */
+/* line 136, _menu.scss */
 #menu ul li a {
   color: #cccccc;
   display: inline-block;
@@ -240,31 +257,31 @@ ul {
   padding-right: 50px;
   padding-top: 5px;
 }
-/* line 138, _menu.scss */
+/* line 146, _menu.scss */
 #menu ul li.active {
   background-color: #fff;
   transform: skewX(-25deg);
   height: 110%;
   margin-top: 0px;
 }
-/* line 143, _menu.scss */
+/* line 151, _menu.scss */
 #menu ul li.active > a {
   color: #000;
   transform: skewX(25deg);
   margin-top: 5px;
 }
-/* line 149, _menu.scss */
+/* line 157, _menu.scss */
 #menu ul li:hover {
   background-color: #fff;
   transform: skewX(-25deg);
 }
-/* line 152, _menu.scss */
+/* line 160, _menu.scss */
 #menu ul li:hover > a {
   color: #343434;
   transform: skewX(25deg);
 }
 
-/* line 161, _menu.scss */
+/* line 169, _menu.scss */
 #menu-smalldevice a {
   height: 50px;
   background-image: url("../img/menu-bg.png");
@@ -274,7 +291,7 @@ ul {
   padding-top: 5px;
   text-align: center;
 }
-/* line 170, _menu.scss */
+/* line 178, _menu.scss */
 #menu-smalldevice a.active {
   color: #fff;
   font-weight: bold;
