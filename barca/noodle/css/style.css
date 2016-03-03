@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #232323;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+p{
+	    font-size: 15px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+ul {
+	list-style-type: none;
+}
+
+img {
+    width: 250px;
+}

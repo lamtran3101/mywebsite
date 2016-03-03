@@ -1,0 +1,346 @@
+/* line 5, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, style.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  color: #232323;
+}
+
+/* line 12, style.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 16, style.scss */
+p {
+  font-size: 15px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+/* line 22, style.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 1, _menu.scss */
+#headline, #languages {
+  background-color: #333;
+  height: 35px;
+}
+
+/* line 7, _menu.scss */
+#headline a {
+  color: #c1c1c1;
+  height: 100%;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* line 13, _menu.scss */
+#headline a:hover {
+  color: #efefef;
+}
+/* line 17, _menu.scss */
+#headline .slash-left {
+  background-image: url("../img/slash-left.png");
+  height: 100%;
+  width: 20px;
+}
+/* line 22, _menu.scss */
+#headline .double-slash-left {
+  background-image: url("../img/double-slash-left.png");
+  height: 100%;
+  width: 25px;
+  margin-left: 10px;
+}
+
+/* line 31, _menu.scss */
+#languages a.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 39, _menu.scss */
+#banner h1 a {
+  color: #333;
+  font-family: georgia;
+  font-size: 44px;
+  font-weight: bold;
+}
+/* line 46, _menu.scss */
+#banner h2 {
+  color: #343434;
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+/* line 56, _menu.scss */
+#blog {
+  color: #1b488b;
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+/* line 63, _menu.scss */
+#blog:hover {
+  color: #04265a;
+}
+
+/* line 67, _menu.scss */
+#social {
+  padding-bottom: 5px;
+}
+/* line 69, _menu.scss */
+#social p {
+  color: #343434;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+/* line 78, _menu.scss */
+#social #social .icons {
+  width: 30px;
+  height: 30px;
+}
+/* line 82, _menu.scss */
+#social #social .facebook {
+  background: url("../img/icons.png") 0 0;
+}
+/* line 85, _menu.scss */
+#social #social .facebook:hover {
+  background-position: 0px -36px;
+}
+/* line 88, _menu.scss */
+#social #social .linkedin {
+  background: url("../img/icons.png") -71px 0;
+}
+/* line 91, _menu.scss */
+#social #social .linkedin:hover {
+  background-position: -71px -36px;
+}
+/* line 94, _menu.scss */
+#social #social .googleplus {
+  background: url("../img/icons.png") -107px 0;
+}
+/* line 97, _menu.scss */
+#social #social .googleplus:hover {
+  background-position: -107px -36px;
+}
+/* line 100, _menu.scss */
+#social #social .skype {
+  background: url("../img/icons.png") -141px 0;
+}
+/* line 103, _menu.scss */
+#social #social .skype:hover {
+  background-position: -141px -36px;
+}
+/* line 106, _menu.scss */
+#social #social .youtube {
+  background: url("../img/icons.png") -73px -81px;
+}
+/* line 109, _menu.scss */
+#social #social .youtube:hover {
+  background-position: -73px -116px;
+}
+/* line 112, _menu.scss */
+#social #social img {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 119, _menu.scss */
+#menu {
+  height: 50px;
+  background-image: url("../img/menu-bg.png");
+}
+/* line 123, _menu.scss */
+#menu ul li {
+  margin-right: 20px;
+  float: left;
+  height: 40px;
+  margin-top: 5px;
+}
+/* line 128, _menu.scss */
+#menu ul li a {
+  color: #cccccc;
+  display: inline-block;
+  font-size: 24px;
+  height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+}
+/* line 138, _menu.scss */
+#menu ul li.active {
+  background-color: #fff;
+  transform: skewX(-25deg);
+  height: 110%;
+  margin-top: 0px;
+}
+/* line 143, _menu.scss */
+#menu ul li.active > a {
+  color: #000;
+  transform: skewX(25deg);
+  margin-top: 5px;
+}
+/* line 149, _menu.scss */
+#menu ul li:hover {
+  background-color: #fff;
+  transform: skewX(-25deg);
+}
+/* line 152, _menu.scss */
+#menu ul li:hover > a {
+  color: #343434;
+  transform: skewX(25deg);
+}
+
+/* line 161, _menu.scss */
+#menu-smalldevice a {
+  height: 50px;
+  background-image: url("../img/menu-bg.png");
+  color: #cccccc;
+  display: inline-block;
+  font-size: 24px;
+  padding-top: 5px;
+  text-align: center;
+}
+/* line 170, _menu.scss */
+#menu-smalldevice a.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 28, style.scss */
+#extra-link {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* line 33, style.scss */
+#main-content {
+  padding-top: 20px;
+  min-height: 600px;
+}
+/* line 36, style.scss */
+#main-content h3 {
+  border-bottom: 2px solid #333;
+}
+
+/* line 41, style.scss */
+#aboutme {
+  padding-left: 80px;
+}
+
+/* line 45, style.scss */
+#hobbie-icon {
+  left: 150px;
+}
+
+/* line 49, style.scss */
+#hobbie {
+  padding-left: 230px;
+}
+
+/* line 53, style.scss */
+.content-holder {
+  position: relative;
+}
+
+/* line 57, style.scss */
+.header-icon {
+  position: absolute;
+  top: -10px;
+  width: 75px;
+}
+
+/* line 63, style.scss */
+.text-content {
+  padding-top: 25px;
+}
+
+/* line 67, style.scss */
+#footer {
+  background-image: url("../img/footer-bg.png");
+  color: #898989;
+  height: 30px;
+  padding-top: 8px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* line 76, style.scss */
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

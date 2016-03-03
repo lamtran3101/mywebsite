@@ -1,0 +1,78 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/opacity";
+@import "compass/css3/appearance";
+@import "compass/typography/text/ellipsis";
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #232323;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@import "menu.scss";
+
+#extra-link {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#main-content {
+    padding-top: 20px;
+    min-height: 600px;
+    h3 {
+        border-bottom: 2px solid #333;
+    }
+}
+
+#aboutme {
+    padding-left: 80px;
+}
+
+#hobbie-icon {
+    left: 150px;
+}
+
+#hobbie {
+    padding-left: 230px;
+}
+
+.content-holder {
+    position: relative;
+}
+
+.header-icon {
+    position: absolute;
+    top: -10px;
+    width: 75px;
+}
+
+.text-content {
+    padding-top: 25px;
+}
+
+#footer {
+    background-image: url("../img/footer-bg.png");
+    color: #898989;
+    height: 30px;
+    padding-top: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
